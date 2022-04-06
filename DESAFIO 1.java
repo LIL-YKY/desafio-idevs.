@@ -36,7 +36,7 @@ public class Main {
 //        Scanner sc = new Scanner(System.in);
 //        String palavra = sc.next().toUpperCase();
         Scanner myObj = new Scanner(System.in);  // Create a Scanner object
-        System.out.println("QUAL A PALAVRA?");
+        System.out.println("DIGITE A PALAVRA QUE DESEJA SABER A PONTUACÃO:");
         String palavra = myObj.nextLine();
         int soma = 0;
         for (int i = 0; i < palavra.length(); i++) {
